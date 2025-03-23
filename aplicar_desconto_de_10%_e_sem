@@ -1,0 +1,11 @@
+valor = float(input('Informe o preço unitário ))
+qtd = int(input('Informe a quantidade ))
+
+total_comprada = valor * qtd
+
+if (total_comprada >= 100):
+desc = total_comprada * 0.10
+desconto_total = total_comprada - desc
+
+print(f'O total da compra com desconto R$ {desconto_total}')
+print(f'O total da compra sem desconto {total_comprada}')
